@@ -29,7 +29,7 @@ class FourVector:
 
 def simulate_lhc_collision():
     print("=" * 60)
-    print(" 🚀 LHC COLLISION KINEMATICS SIMULATOR 🚀 ".center(60))
+    print(" >>> LHC COLLISION KINEMATICS SIMULATOR <<< ".center(60))
     print("=" * 60)
 
     # Proton mass in GeV/c^2
