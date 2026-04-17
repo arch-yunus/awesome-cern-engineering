@@ -157,30 +157,41 @@ canvas#particleCanvas {
 .glass-card:hover {
     transform: translateY(-10px) scale(1.02);
     border-color: var(--primary-glow);
-    box-shadow: 0 10px 30px rgba(0, 240, 255, 0.15);
+    box-shadow: 0 10px 40px rgba(0, 240, 255, 0.3);
+    background: rgba(16, 21, 38, 0.8);
 }
 
-.glass-card:hover::before {
-    left: 200%;
+.feature {
+    border-left: 4px solid var(--secondary-glow);
+    background: linear-gradient(135deg, rgba(16, 21, 38, 0.6), rgba(112, 0, 255, 0.05));
 }
 
-.card-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+.code-peek {
+    margin-top: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    color: var(--primary-glow);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+    border-radius: 4px;
+    border-left: 2px solid var(--primary-glow);
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
 }
 
-.glass-card h3 {
-    font-family: 'Orbitron', sans-serif;
-    color: #fff;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    letter-spacing: 1px;
+.glass-card:hover .code-peek {
+    opacity: 1;
 }
 
-.glass-card p {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    line-height: 1.6;
+/* Animations upgrade */
+@keyframes pulse {
+    0% { box-shadow: 0 0 15px rgba(0, 240, 255, 0.2); }
+    50% { box-shadow: 0 0 30px rgba(0, 240, 255, 0.5); }
+    100% { box-shadow: 0 0 15px rgba(0, 240, 255, 0.2); }
+}
+
+.badge {
+    animation: pulse 2s infinite ease-in-out;
 }
 
 footer {
@@ -207,4 +218,5 @@ footer {
 @media (max-width: 768px) {
     .glitch { font-size: 2.5rem; }
     .hero { padding: 0 1rem; }
+    .modules { grid-template-columns: 1fr; }
 }

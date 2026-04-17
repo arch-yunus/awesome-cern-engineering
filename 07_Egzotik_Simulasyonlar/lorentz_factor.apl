@@ -1,31 +1,26 @@
-⍝ APL (A Programming Language) - Rölativistik Kinetik Matris
-⍝ --------------------------------------------------------
-⍝ Bu betik, CERN'deki rölativistik dinamiklerin vektör tabanlı
-⍝ bir simülasyonunu gerçekleştirir. APL'in dizileri birincil
-⍝ vatandaş olarak ele alması, proton kümelerini simüle etmek için idealdir.
+⍝ lorentz_factor.apl - CERN Mühendisliği için Rölativistik Kinematik 🌌
+⍝ -------------------------------------------------------------
+⍝ Bu betik, yüksek enerjili proton kümeleri için Lorentz Faktörünü (gamma)
+⍝ ve rölativistik Doppler kaymalarını hesaplar.
 
-⍝ 1. Sabitlerin Tanımlanması (Proton durgun kütlesi - GeV)
-m ← 0.938
+⍝ 1. Lorentz Faktörü Hesabı: gamma = 1 / sqrt(1 - v²/c²)
+⍝ Normalize edilmiş hız için c = 1 varsayılır (beta = v/c)
+LorentzFactor ← { ÷ (1 - ⍵ * 2) * 0.5 }
 
-⍝ 2. Hızların Tanımlanması (Işık hızına yakın: 0.9c'den 0.999999991c'ye)
-V ← 0.9 0.99 0.999 0.9999 0.99999 0.999999 0.9999999 0.999999991
+⍝ Örnek: LHC tasarım enerjisindeki protonlar için gamma hesabı (0.999999991c)
+beta ← 0.999999991
+gamma ← LorentzFactor beta
+⎕ ← 'LHC Tasarım Enerjisindeki Lorentz Faktörü (gamma):' gamma
 
-⍝ 3. Vektörleştirilmiş Lorentz Faktörü: γ = 1 / √(1 - v²)
-G ← ÷ (1 - V × V) * 0.5
+⍝ 2. Rölativistik Doppler Etkisi: f_obs = f_src * sqrt((1+beta)/(1-beta))
+DopplerShift ← { ⍵ × ( (1 + ⍺) ÷ (1 - ⍺) ) * 0.5 }
 
-⍝ 4. Rölativistik Kinetik Enerji: K = (γ - 1)mc²
-K ← (G - 1) × m
+sourceFreq ← 400.79 ⍝ 400 MHz RF kaviteleri frekansı
+shiftedFreq ← beta DopplerShift sourceFreq
+⎕ ← 'Rölativistik Doppler Kayması (MHz):' shiftedFreq
 
-⍝ 5. Rölativistik Momentum: p = γmv
-P ← G × m × V
-
-⍝ 6. Egzotik Görüntüleme Mantığı
-⎕ ← '--- CERN VEKTÖRLEŞTİRİLMİŞ KİNETİK MATRİS ---'
-⎕ ← 'Hızlar (v/c):      ', ⍕V
-⎕ ← 'Lorentz Faktörleri: ', ⍕G
-⎕ ← 'Kinetik Enerji(GeV): ', ⍕K
-⎕ ← 'Rölativistik Momentum: ', ⍕P
-
-⍝ 7. Durum Kontrolü
-⎕ ← 'TANI: ', (G[⍴G] > 7000) ⌽ 'NOMİNAL ENERJİ' 'AŞIRI ÇARPIŞMA ENERJİSİ'
-⎕ ← '--- DİZİ SONLANDIRILDI ---'
+⍝ 3. Transvers Kütle Hesabı: m_t = m_0 * gamma
+⍝ Proton durgun kütlesi ~ 938.272 MeV/c²
+m0 ← 938.272
+mt ← m0 × gamma
+⎕ ← 'Rölativistik Kütle (MeV/c²):' mt
