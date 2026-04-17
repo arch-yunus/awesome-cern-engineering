@@ -115,5 +115,15 @@ CERN mühendisliğini daha derinden hissetmek için geliştirilen matematiksel m
 
 ---
 
+## 🛸 Mizah ve Şehir Efsaneleri
+
+CERN, barındırdığı devasa enerji ve bilinmezlikler nedeniyle pek çok ilginç geyiğe de konu olmuştur. Bunlardan en popüler olanı şöyledir:
+
+> "Bir gün uzaylılar dünyayı ziyarete gelmişler. Tam iniş yapacaklarken yeraltındaki devasa CERN tesislerini, 27 kilometrelik tünelleri, süperiletken mıknatısları ve atomları parçalayan o muazzam mühendisliği görmüşler. Şöyle bir durup birbirlerine bakmışlar ve demişler ki: **'Bunu yapanlar bize neler yapmaz? En iyisi biz hiç bulaşmadan geri dönelim.'** Ve geldikleri gibi sessizce galaksilerine geri gitmişler..."
+
+---
+
+---
+
 ### 🤝 Katkıda Bulunma
 Eğer bir "Mühendislik" veya "Fizik" meraklısıysanız ve CERN'deki sistem mimarileri, veri toplama metodolojileri, kontrol ağları hakkında elinizde teknik bir makale (paper), donanım tasarımı veya açık kaynak bir bilgi varsa, lütfen bir **Pull Request** açarak kataloğumuzu genişletin!
