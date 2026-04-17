@@ -27,3 +27,6 @@ CERN'in DAQ mimarisi verinin %99.99'unu "çöpe atma" ve sadece "enteresan" fizi
 Son yıllarda FPGA ve dedektör çiplerini AI mimarilerine entegre eden projeler (örn. **hls4ml** - Machine Learning on FPGAs via High-Level Synthesis) CERN donanım mühendisliğinin uç noktasını temsil ediyor.
 
 > **Mühendislik Perspektifi:** Bu altyapı telekomünikasyonun, donanım tasarımının (VHDL/Verilog), Ultra-Low Latency sistemlerin ve Real-time İşletim Sistemlerinin en rafine haline bir örnektir. Wall-Street'teki Yüksek Frekanslı Ticaret (HFT) donanımlarından bile daha hızlı bir pipeline'dır.
+
+## 🔭 Gelecek Perspektifi: Saniyede Exabyte Seviyesi
+HL-LHC ile birlikte veri hızları mevcut seviyenin 10 katına çıkacaktır. Bu durum, tetikleme (trigger) sistemlerinde CPU ve GPU'ların hibrid olarak çalıştığı, verinin doğrudan dedektör seviyesinde AI algoritmalarıyla elendiği "Heterojen Hesaplama" mimarilerini zorunlu kılmaktadır. WLCG Grid sistemi ise bu devasa yükü yönetmek için "Cloud-Native" yapılara ve Exabyte seviyesindeki akıllı depolama çözümlerine evrilecektir.

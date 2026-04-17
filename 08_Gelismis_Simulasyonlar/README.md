@@ -18,3 +18,6 @@ Eğer CERN analizlerine girecekseniz, göreceğiniz ilk C++ Class yapısı bu `F
 ## 2. Karşılaştırmalı Fizik (Python vs APL)
 
 Bu klasördeki hesaplamalar hem **modern Python** (Daha okunaklı, nesne yönelimli) hem de **klasik APL** (Daha kompakt, matris odaklı) dillerinde sunulmuştur. Aynı fiziksel sonuçların, iki zıt yazılım felsefesiyle nasıl elde edildiğini gözlemleyebilirsiniz.
+
+## 🔭 Gelecek Perspektifi: 100 TeV Enerji Simülasyonları
+Gelecek nesil FCC çarpıştırıcısı, 100 TeV gibi hayal edilmesi güç enerji seviyelerine ulaşacaktır. Bu durum, simülasyon kütüphanelerinin çok daha yüksek hassasiyette (floating point precision) ve ultra-rölativistik etkileri (synchrotron radiation loss) çok daha detaylı hesaplayacak şekilde optimize edilmesini gerektirecektir.

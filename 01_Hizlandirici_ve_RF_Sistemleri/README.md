@@ -31,3 +31,6 @@ Süperiletken mıknatıslar sadece demetleri **yönlendirir**; onları hızland�
 *   Klystronlar, demetin enerji kayıplarını (synchrotron radiation) kompanse etmek için dinamik olarak ayarlanır.
 
 > **Mühendislik Perspektifi:** RF sistemlerinde senkronizasyon hatası on binde bir bile sapsa, dalganın tepe noktası yerine çukur noktasına denk gelen protonlar hızlanmak yerine yavaşlar ("De-phasing"). Bu, devasa bir P-I-D ve dağıtık kontrol senkronizasyon mühendisliğini (White Rabbit gibi PTP sistemlerini) zorunlu kılar.
+
+## 🔭 Gelecek Perspektifi: HL-LHC ve Crab Cavities
+HL-LHC projesi kapsamında, RF sistemleri **Crab Cavities** (Yengeç Kaviteleri) ile devrim geçirecektir. Bu kaviteler, proton demetlerini dikey eksende döndürerek çarpışma noktalarında "kafa kafaya" gelmelerini sağlar ve bu sayede veri toplama hızını (luminosity) 10 kat artırır.

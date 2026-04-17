@@ -10,3 +10,6 @@ APL sembolleri matematiksel veya uzaylı alfabelerine (`⍝`, `←`, `÷`, `*`, 
 hesaplar. APL'in matris ve vektör tabanlı gücünü CERN çarpışma senaryolarıyla birleştirir.
 
 > Geliştiricinin notu: Normal kod yazmaktan sıkılınca, makinelere kendi "anormal" dillerinde hükmetmenin keyfine varın :)
+
+## 🔭 Gelecek Perspektifi: Kuantum APL ve Klasik Ötesi Paradigmalara
+Fiziğin geleceği kuantum seviyesine indikçe, programlama dillerinin de matris odaklı (APL gibi) yapılardan doğrudan **Kuantum Kapıları (Quantum Gates)** ve **Qubit** manipülasyonuna dayalı "klasik ötesi" paradigmalara evrilmesi beklenmektedir. Bu dizin, gelecekte kuantum algoritmalarının CERN verilerini nasıl işleyeceğine dair deneysel kodlara ev sahipliği yapacaktır.

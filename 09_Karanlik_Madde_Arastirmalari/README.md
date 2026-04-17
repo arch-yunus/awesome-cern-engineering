@@ -36,4 +36,7 @@ Karanlık madde aramalarında kullanılan kilit mühendislik bileşenleri:
 
 ---
 
-> **Mühendislik Notu:** Karanlık madde tespiti, "gürültü" (noise) yönetimi sanatıdır. Standart modeldeki milyarlarca parçacık arasından o tek bir "kayıp" sinyali yakalamak; veri toplama (DAQ) hızının, zamanlama hassasiyetinin ve dedektör izolasyonunun uç noktasıdır.
+> **Mühendislik Notu:** Karanlık madde tespiti, "gürültü" (noise) yönetimi sanatıdır. Standart modeldeki milyarlarca parçacık arasından o tek bir "kayıp" sinyali yakalamak; veri toplama (DAQ) hızıının, zamanlama hassasiyetinin ve dedektör izolasyonunun uç noktasıdır.
+
+## 🔭 Gelecek Perspektifi: FCC-hh ve WIMP Limitleri
+HL-LHC ve gelecek nesil FCC-hh, bugünkü deneylerin ulaşamadığı yüksek kütleli karanlık madde adaylarını (WIMP'ler) tespit edebilecek enerji eşiğine sahip olacaktır. Çok daha hassas kalorimetreler ve nanosaniye altı zamanlama çözünürlükleri, evrenin bu en büyük gizemini çözmek için anahtar rol oynayacaktır.

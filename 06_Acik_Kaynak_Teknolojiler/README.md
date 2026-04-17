@@ -35,3 +35,6 @@ CERN Bilgi Teknolojileri tarafından geliştirilen açık kaynaklı döküman ve
 
 ---
 > **Mühendislik Perspektifi:** CERN donanımını veya ekosistemlerini evdeki bir sunucuda ya da teknofest projenizde uygulamak istiyorsanız yukarıdaki enstrümanları entegre etmek sizi vizyon olarak on yıl ileri geçirecektir.
+
+## 🔭 Gelecek Perspektifi: Sürdürülebilir ve Açık Bilim
+CERN, "Open Hardware" (Açık Donanım) vizyonunu sadece mühendislik için değil, sürdürülebilirlik için de bir standart haline getirmektedir. Gelecek projelerde, enerji verimliliği yüksek çiplerden tamamen geri dönüştürülebilir dedektör materyallerine kadar tüm tasarımlar açık kaynaklı olarak paylaşılmaya ve endüstri ile ortaklaşa geliştirilmeye devam edilecektir.

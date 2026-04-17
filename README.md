@@ -86,12 +86,15 @@ CERN tarihinde, evrenin temel yasalarını yeniden tanımlayan ve mühendislik s
 1.  [Parçacık Hızlandırıcı Zinciri ve RF Sistemleri](#1-parçacık-hızlandırıcı-zinciri-ve-rf-sistemleri)
 2.  [Kriyojenik ve Süperiletken Manyetik Mimariler](#2-kriyojenik-ve-süperiletken-manyetik-mimariler)
 3.  [Veri Toplama (DAQ) ve Donanım Tabanlı Tetikleme](#3-veri-toplama-daq-ve-donanım-tabanlı-tetikleme)
-4.  [Kontrol Sistemleri ve Görev-Kritik Güvenlik (Tasarımsal Güvenlik)](#4-kontrol-sistemleri-ve-görev-kritik-güvenlik-tasarımsal-güvenlik)
+4.  [Kontrol Sistemleri ve Güvenlik (Tasarımsal Güvenlik)](#4-kontrol-sistemleri-ve-güvenlik-tasarımsal-güvenlik)
 5.  [WLCG: Küresel Dağıtık Hesaplama Analitiği](#5-wlcg-küresel-dağıtık-hesaplama-analitiği)
 6.  [Açık Kaynak Standartları ve Endüstriyel Miras](#6-açık-kaynak-standartları-ve-endüstriyel-miras)
 7.  [Egzotik Hesaplamalı Modeller](#7-egzotik-hesaplamalı-modeller)
-8.  [İleri Fizik Simülasyonları ve Karşılaştırmalı Kinematik](#8-ileri-fizik-simülasyonları-ve-karşılaştırmalı-kinematik)
-9.  [Karanlık Madde (Dark Matter) Tespit Metodolojileri](#9-karanlık-madde-dark-matter-tespit-metodolojileri)
+8.  [İleri Fizik Simülasyonları ve Kinematik](#8-ileri-fizik-simülasyonları-ve-kinematik)
+9.  [Gelecek Nesil Dedektör Paradigması: ATLAS vs CMS](#-gelecek-nesil-dedektör-paradigması-atlas-vs-cms)
+10. [CERN'ün Geleceği: HL-LHC ve FCC](#-cernün-geleceği-hl-lhc-ve-fcc)
+11. [Endüstriyel Uygulamalar: CERN'den Hayata](#-endüstriyel-uygulamalar-cernden-hayata)
+12. [Karanlık Madde (Dark Matter) Tespit Metodolojileri](#12-karanlık-madde-dark-matter-tespit-metodolojileri)
 
 ---
 
@@ -119,7 +122,48 @@ APL gibi alışılmadık programlama paradigmalarıyla geliştirilen fiziksel mo
 ## 🧮 8. İleri Fizik Simülasyonları ve Kinematik
 Python ve APL ile 13.6 TeV çarpışma kütlesini ve enerji korunumunu simüle eden araçlar. [Dökümantasyon](08_Gelismis_Simulasyonlar/README.md).
 
-## 🌌 9. Karanlık Madde (Dark Matter) Tespit Metodolojileri
+---
+
+## 🔬 Gelecek Nesil Dedektör Paradigması: ATLAS vs CMS
+
+LHC'nin iki ana dedektörü olan ATLAS ve CMS, aynı fiziksel sorulara iki farklı mühendislik yaklaşımıyla cevap arar.
+
+| Özellik | **ATLAS** (A Toroidal LHC ApparatuS) | **CMS** (Compact Muon Solenoid) |
+| :--- | :--- | :--- |
+| **Manyetik Mimari** | "Hava Çekirdekli" Dev Toroid Mıknatıslar | Tek ve Devasa 4-Tesla Solenoid |
+| **Kalorimetre** | Sıvı Argon (Hassas Enerji Ölçümü) | Kurşun Tungstat Kristaller (Hızlı Yanıt) |
+| **Boyut Felsefesi** | Daha Büyük (Hacim Odaklı, 46m uzunluk) | Daha Yoğun (Kütle Odaklı, 14.000 ton) |
+| **Mühendislik Rolü** | Yüksek hassasiyetli iz sürme (tracking). | Kompakt yapıda maksimum manyetik alan. |
+
+---
+
+## 🚄 CERN'ün Geleceği: HL-LHC ve FCC
+
+CERN, önümüzdeki 50 yılın fizik ve mühendislik haritasını iki dev proje üzerinden kurgulamaktadır:
+
+### 1. High-Luminosity LHC (HL-LHC) - *Operasyonel Target: 2029+*
+Mevcut LHC'nin veri toplama kapasitesini (Işınlık/Luminosity) 10 kat artırmayı hedefleyen devasa bir mühendislik güncellemesidir.
+*   **Nb3Sn Mıknatıslar:** Standart NbTi mıknatıslar yerine, 12 Tesla güce ulaşabilen Niyobyum-Kalay süperiletken mıknatıslar kullanılacaktır.
+*   **Crab Cavities (Yengeç Kaviteleri):** Proton demetlerini çarpışma noktasına gelmeden hemen önce "yana doğru" döndürerek çarpışma olasılığını maksimize eden ultra-hassas RF üniteleri.
+
+### 2. Future Circular Collider (FCC) - *Vizyon: 100 TeV*
+LHC'den 4 kat daha büyük (91 km) bir tünelde, 100 TeV enerjiye ulaşacak olan "nihai kâşif".
+*   **Teknik Meydan Okuma:** 16 Tesla gücünde devasa manyetik alanlar ve ileri seviye senkrotron radyasyon yönetimi.
+
+---
+
+## 🏥 Endüstriyel Uygulamalar: CERN'den Hayata
+
+Parçacık fiziği için geliştirilen teknolojiler, bugün modern dünyanın pek çok noktasında "gold standard" olarak kullanılmaktadır:
+
+*   **Tıp (MRI ve PET):** Süperiletken mıknatıs teknolojisi ve parçacık dedektörleri, bugün hastanelerdeki MRI ve PET-Scan cihazlarının kalbini oluşturur.
+*   **Hadron Terapi:** Parçacık hızlandırıcıları, tümörleri cerrahi müdahale olmadan, doku derinliğinde yok eden kanser tedavisi (Bragg Peak etkisi) sistemlerine dönüşmüştür.
+*   **Uzay Araştırmaları:** CERN'deki radyasyona dayanıklı (Rad-Hard) elektronik tasarımları, derin uzay görevlerindeki uyduların radyasyon kalkanı mimarilerinde kullanılır.
+*   **Büyük Veri (Big Data):** WWW'nun icadı ve WLCG Grid mimarisi, bugünkü bulut bilişim ve dağıtık veri işleme standartlarının temelidir.
+
+---
+
+## 🌌 12. Karanlık Madde (Dark Matter) Tespit Metodolojileri
 Görünmez olanı arayan "Missing Energy" sinyalleri ve Aksiyon teleskopları. [Dökümantasyon](09_Karanlik_Madde_Arastirmalari/README.md).
 
 ---

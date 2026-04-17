@@ -28,3 +28,6 @@ Süperiletkenliğin bozulduğu, yani kablonun milisaniyeler içerisinde aniden t
 *   **Quench Protection System (QPS):** Mıknatıs uçları arasındaki milivolt düzeyindeki gerilim farklarını tarar. Bir arıza tespit ettiğinde, enerjiyi anında mıknatısın dışındaki devasa direnç bloklarına (Dump Resistors) aktarır. Sistem saniyeden daha kısa bir sürede tepki vermek üzere tasarlanmıştır.
 
 > **Mühendislik Perspektifi:** Termal izolasyon, sızdırmazlık, yorgunluk analizi (fatigue) ve akışkanlar dinamiğinin doruk noktasıdır. En ufak bir vakum kaçağı (thermal leak) tüm deneyin on haftalarca sürecek soğutma döngüsüne girmesine sebep olur.
+
+## 🔭 Gelecek Perspektifi: Nb3Sn ve 16 Tesla Hedefi
+HL-LHC ve FCC projeleri, klasik Niyobyum-Titanyum mıknatısların limitlerini (8.3T) zorlayarak **Niyobyum-Kalay (Nb3Sn)** teknolojisine geçişi zorunlu kılmıştır. Bu yeni nesil süperiletkenler, 12 ile 16 Tesla arasında devasa manyetik alanlar üreterek parçacık yörüngelerini çok daha dar kavislerde tutabilecek ve 100 TeV enerji seviyelerine kapı aralayacaktır.
