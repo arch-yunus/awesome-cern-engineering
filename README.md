@@ -25,6 +25,35 @@ Buradaki temel amaç, dünyanın en karmaşık makinesinin arkasındaki mimari p
 
 ---
 
+## 🛠️ LHC Deney Yaşam Döngüsü: Fikirden Yayına
+
+CERN'deki bir bilimsel deney, kavramsal tasarımdan veri analizine kadar yıllar süren, çok katmanlı ve disiplinli bir dökümantasyon ve onay sürecine tabidir.
+
+### 🔄 Operasyonel Akış Diyagramı
+
+```mermaid
+graph TD
+    A["Fikir ve Kavramsal Tasarım (R&D)"] --> B["Letter of Intent (LoI) Sunumu"]
+    B --> C["LHCC ve RB Komite İncelemesi"]
+    C --> D["Technical Design Report (TDR) Hazırlığı"]
+    D --> E["CERN Research Board Onayı ve Grey Book Kaydı"]
+    E --> F["İnşa, Test ve Entegrasyon (Yıllar Süren Süreç)"]
+    F --> G["Commissioning (Kozmik Işınlarla Kalibrasyon)"]
+    G --> H["Veri Toplama (Beam-on Operation)"]
+    H --> I["Analiz ve Internal Review (ARC Denetimi)"]
+    I --> J["Bilimsel Yayın (Open Access)"]
+```
+
+### 📋 Protokol Detayları
+
+1.  **Teklif ve LoI (Letter of Intent):** Bilimsel bir topluluk (collaboration), hedeflenen fizik ölçümü için kavramsal bir taslak hazırlar ve deneyi yürütmek amacıyla CERN'e başvurur.
+2.  **TDR (Technical Design Report):** Deneyin dedektör mimarisi, mühendislik gereksinimleri, bütçe planlaması ve iş gücü dağılımını içeren binlerce sayfalık teknik manifestodur.
+3.  **Hukuki Çerçeve (MoU):** Katılımcı kurumlar ve CERN arasında kaynak taahhütlerini belirleyen *Memorandum of Understanding* imzalanır.
+4.  **Commissioning:** Dedektör yeraltına kurulduktan sonra, demet gelmeden önce kozmik ışınlar kullanılarak tüm sensörlerin zamanlama ve konum kalibrasyonları yapılır.
+5.  **ARC (Analysis Review Committee):** Ham veri işlendikten sonra elde edilen sonuçlar, işbirliği içindeki bağımsız bir hakem heyeti (ARC) tarafından "blind review" metodolojisiyle denetlenmeden yayınlanamaz.
+
+---
+
 ## 🏛️ Bilimsel Kilometre Taşları ve Keşif Paradigmaları
 
 CERN tarihinde, evrenin temel yasalarını yeniden tanımlayan ve mühendislik sınırlarını zorlayan kritik bilimsel dönüm noktaları bulunmaktadır:
@@ -64,6 +93,7 @@ Higgs alanının varlığı, ATLAS ve CMS deneylerinin bağımsız verileriyle d
 
 ## 🗺️ Teknik Mimari ve İçerik Haritası
 
+0.  [LHC Deney Yaşam Döngüsü: Fikirden Yayına](#-lhc-deney-yaşam-döngüsü-fikirden-yayına)
 1.  [Parçacık Hızlandırıcı Zinciri ve RF Sistemleri](#1-parçacık-hızlandırıcı-zinciri-ve-rf-sistemleri)
 2.  [Kriyojenik ve Süperiletken Manyetik Mimariler](#2-kriyojenik-ve-süperiletken-manyetik-mimariler)
 3.  [Veri Toplama (DAQ) ve Donanım Tabanlı Triggering](#3-veri-toplama-daq-ve-donanım-tabanlı-triggering)
