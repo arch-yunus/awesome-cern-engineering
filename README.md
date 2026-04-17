@@ -25,6 +25,20 @@ Buradaki temel amaç, dünyanın en karmaşık makinesinin arkasındaki mimari p
 
 ---
 
+## 🏛️ Bilimsel Kilometre Taşları ve Keşif Paradigmaları
+
+CERN tarihinde, evrenin temel yasalarını yeniden tanımlayan beş kritik bilimsel dönüm noktası bulunmaktadır:
+
+1.  **Nötr Akımların Keşfi (1973):** *Gargamelle* kabarcık odasında yapılan gözlemlerle, zayıf etkileşimlerin "nötr akımlar" vasıtasıyla gerçekleştiği kanıtlanmıştır. Bu, elektrozayıf (electroweak) birleşmenin ilk doğrudan deneysel kanıtıdır.
+2.  **W ve Z Bozonlarının Tespiti (1983):** Süper Proton Sinkrotronu (SPS) üzerindeki UA1 ve UA2 deneyleri, zayıf kuvvetin taşıyıcısı olan W ve Z bozonlarını keşfetmiştir. Bu başarı, Simon van der Meer'in geliştirdiği **"Stochastic Cooling"** adlı mühendislik harikası parçacık odaklama teknolojisi sayesinde mümkün olmuştur.
+3.  **World Wide Web'in İcadı (1989):** Tim Berners-Lee tarafından, CERN fizikçileri arasındaki bilgi transferini harmonize etmek amacıyla geliştirilen HTTP ve HTML protokolleri, bugünkü küresel internet altyapısının temelini oluşturmuştur.
+4.  **Antimadde Sentezi ve Manipülasyonu (1995-2010):** CERN, dünyada ilk kez anti-hidrojen atomlarını sentezlemeyi (1995) ve daha sonra bunları manyetik tuzaklarda (ALPHA deneyi) uzun süre stabil tutmayı (2010) başararak madde-antimadde asimetrisi üzerine kritik veriler sağlamıştır.
+5.  **Higgs Bozonu'nun Keşfi (2012):** ATLAS ve CMS dedektörleri, Standart Model'in eksik halkası olan ve parçacıklara kütle kazandıran **Skaler Bozon'u (Higgs)** tespit etmiştir. Bu keşif, Petabaytlarca veriden istatistiksel anlam çıkarılmasını sağlayan devasa bir veri işleme başarısıdır.
+
+---
+
+---
+
 ## 🗺️ Teknik Mimari ve İçerik Haritası
 
 1.  [Parçacık Hızlandırıcı Zinciri ve RF Sistemleri](#1-parçacık-hızlandırıcı-zinciri-ve-rf-sistemleri)
