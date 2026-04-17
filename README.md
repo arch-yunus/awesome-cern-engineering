@@ -1,3 +1,5 @@
+![Awesome CERN Engineering Banner](assets/banner.png)
+
 <div align="center">
 
 # 🌌 Awesome CERN Engineering
