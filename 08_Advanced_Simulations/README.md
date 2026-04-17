@@ -12,6 +12,9 @@ Bu Python modülü, birbirine çok zıt iki yönde (Beam 1 ve Beam 2) yaklaşan,
 Eğer CERN analizlerine girecekseniz, göreceğiniz ilk C++ Class yapısı bu `FourVector` objesi olacaktır.
 
 ### Çalıştırmak İçin:
-```bash
-python collision_kinematics.py
-```
+- **Python:** `python collision_kinematics.py`
+- **APL:** `collision_kinematics.apl` (APL Interpreter gerektirir.)
+
+## 2. Karşılaştırmalı Fizik (Python vs APL)
+
+Bu klasördeki hesaplamalar hem **modern Python** (Daha okunaklı, nesne yönelimli) hem de **klasik APL** (Daha kompakt, matris odaklı) dillerinde sunulmuştur. Aynı fiziksel sonuçların, iki zıt yazılım felsefesiyle nasıl elde edildiğini gözlemleyebilirsiniz.

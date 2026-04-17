@@ -97,7 +97,7 @@ Bu bölüm, CERN'ün uçak fiziğine yakışır şekilde, alışılmadık progra
 ## 🧮 8. Gelişmiş Python Simülasyonları
 
 CERN mühendisliğini daha derinden hissetmek için geliştirilen matematiksel modeller.
-*   **Collision Kinematics:** İki protonun çarpışmasından ortaya çıkan dört-vektör momentumlarını hesaplayan profesyonel bir [Python aracı](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/awesome-cern-engineering/08_Advanced_Simulations/collision_kinematics.py).
+*   **Collision Kinematics:** İki protonun çarpışmasından ortaya çıkan dört-vektör momentumlarını hesaplayan profesyonel [Python](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/awesome-cern-engineering/08_Advanced_Simulations/collision_kinematics.py) ve [APL](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/awesome-cern-engineering/08_Advanced_Simulations/collision_kinematics.apl) versiyonları.
 
 ---
 
