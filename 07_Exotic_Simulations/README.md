@@ -3,6 +3,10 @@
 Bu dizin, CERN'ün uçuk fiziğine yakışır şekilde programlama dillerinin de en tuhaf (esoteric) ve görünüşte uzaylı dillerine benzeyen versiyonlarıyla yazılmış konsept kodlar içerir.
 
 ## 1. APL (A Programming Language) - `lorentz_factor.apl`
-APL sembolleri matematiksel veya uzaylı alfabelerine (`⍝`, `←`, `÷`, `*∘`, `⎕`) benzer karakterlerle doludur. CERN'deki bir protonun Işık hızına çok yaklaştığı andaki rölativistik **Lorentz Faktörünü (γ)** hesaplamak için yazılmış bir APL simülasyonudur. Şifreli bir NASA/CERN arşivi gibi görünür.
+APL sembolleri matematiksel veya uzaylı alfabelerine (`⍝`, `←`, `÷`, `*`, `⎕`) benzer karakterlerle doludur. Bu genişletilmiş simülasyon, tek bir değer yerine bir **hız vektörü** (0.9c'den 0.999999991c'ye kadar) tanımlar ve tüm bu değerler için aynı anda:
+- Lorentz Faktörlerini (γ)
+- Rölativistik Kinetik Enerjileri (GeV)
+- Rölativistik Momentumları (p)
+hesaplar. APL'in matris ve vektör tabanlı gücünü CERN çarpışma senaryolarıyla birleştirir.
 
 > Geliştiricinin notu: Normal kod yazmaktan sıkılınca, makinelere kendi "anormal" dillerinde hükmetmenin keyfine varın :)
