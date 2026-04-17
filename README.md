@@ -31,6 +31,7 @@ Bu depo, CERN'ü sadece bir fizik laboratuvarı olarak değil; **Elektronik, Hab
 6.  [Açık Kaynak Teknoloji ve Araçlar](#6-açık-kaynak-teknoloji-ve-araçlar)
 7.  [Egzotik ve Antin Kuntin Simülasyonlar (APL)](#7-egzotik-ve-antin-kuntin-simülasyonlar)
 8.  [Gelişmiş Python Simülasyonları (Fizik Motoru)](#8-gelişmiş-python-simülasyonları)
+9.  [Karanlık Madde (Dark Matter) Araştırmaları](#9-karanlık-madde-dark-matter-araştırmaları)
 
 ---
 
@@ -98,6 +99,16 @@ Bu bölüm, CERN'ün uçak fiziğine yakışır şekilde, alışılmadık progra
 
 CERN mühendisliğini daha derinden hissetmek için geliştirilen matematiksel modeller.
 *   **Collision Kinematics:** İki protonun çarpışmasından ortaya çıkan dört-vektör momentumlarını hesaplayan profesyonel [Python](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/awesome-cern-engineering/08_Advanced_Simulations/collision_kinematics.py) ve [APL](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/awesome-cern-engineering/08_Advanced_Simulations/collision_kinematics.apl) versiyonları.
+
+---
+
+## 🌌 9. Karanlık Madde (Dark Matter) Araştırmaları
+
+Evrenin büyük bir kısmını kaplayan ancak görünmeyen bu gizemli maddeyi bulmak için CERN'de uç nokta mühendislik teknikleri uygulanır.
+
+*   **Missing Energy Signature:** Görünür tüm parçacıkların toplam momentumunun sıfır çıkmamasından hareketle, görünmeyen parçacıkların izini sürme.
+*   **Aksiyon Arayışları (CAST):** Güneş'ten gelen aksiyonları 9 Tesla'lık mıknatıslarla X-ışınına dönüştüren dev teleskop sistemleri.
+*   **Hassas Zamanlama:** 30 pikosaniye (saniyenin trilyonda otuzu) çözünürlüğe sahip özel silikon dedektörlerin inşası.
 
 ---
 
