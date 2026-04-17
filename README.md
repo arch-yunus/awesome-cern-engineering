@@ -2,6 +2,7 @@
 
 # 🌌 Awesome CERN Engineering
 
+[![Web Portal](https://img.shields.io/badge/Web%20Portal-Live-brightgreen?style=for-the-badge&logo=githubpages)](https://arch-yunus.github.io/awesome-cern-engineering/)
 [![CERN Open Data](https://img.shields.io/badge/CERN-Open%20Data-blue?style=for-the-badge&logo=cern)](https://opendata.cern.ch/)
 [![Field: Engineering](https://img.shields.io/badge/Field-Engineering-orange?style=for-the-badge)](https://home.cern/science/engineering)
 [![Status: Researching](https://img.shields.io/badge/Status-Researching-green?style=for-the-badge)](https://home.cern/)
@@ -26,6 +27,8 @@ Bu depo, CERN'ü sadece bir fizik laboratuvarı olarak değil; **Elektronik, Hab
 4.  [Kontrol ve Güvenlik Sistemleri (Security by Design)](#4-kontrol-ve-güvenlik-sistemleri-security-by-design)
 5.  [WLCG: Küresel Dağıtık Hesaplama](#5-wlcg-küresel-dağıtık-hesaplama)
 6.  [Açık Kaynak Teknoloji ve Araçlar](#6-açık-kaynak-teknoloji-ve-araçlar)
+7.  [Egzotik ve Antin Kuntin Simülasyonlar (APL)](#7-egzotik-ve-antin-kuntin-simülasyonlar)
+8.  [Gelişmiş Python Simülasyonları (Fizik Motoru)](#8-gelişmiş-python-simülasyonları)
 
 ---
 
@@ -81,6 +84,18 @@ CERN mühendisliği yazılımdan donanıma birçok alanda devrimsel teknolojiler
 | **KiCad** | PCB Tasarımı | CERN mühendislerinin açık kaynağa kazandırdığı, rad-hard devrelerin tasarlanmasında da desteklenen PCB dizayn platformu. |
 | **VHDL & Verilog** | FPGA Geliştirme | Ultra-hızlı donanım tabanlı veri yollandırma ve mantıksal tetikleyicilerin programlanması. |
 | **White Rabbit** | Alt-nanosaniye senkronizasyon | Binlerce dğüm arası ethernet üzerinden saniyenin milyarda biri hassasiyetinde zaman senkronizasyonu protokolü (PTP uzantısı). |
+
+---
+
+## 👽 7. Egzotik ve Antin Kuntin Simülasyonlar
+
+Bu bölüm, CERN'ün uçak fiziğine yakışır şekilde, alışılmadık programlama dillerini içerir.
+*   **APL Simülasyonu:** Lorentz faktörü hesaplamalarını içeren, matematiksel semboller ve egzotik kodlar barındıran [APL kodu](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/awesome-cern-engineering/07_Exotic_Simulations/lorentz_factor.apl).
+
+## 🧮 8. Gelişmiş Python Simülasyonları
+
+CERN mühendisliğini daha derinden hissetmek için geliştirilen matematiksel modeller.
+*   **Collision Kinematics:** İki protonun çarpışmasından ortaya çıkan dört-vektör momentumlarını hesaplayan profesyonel bir [Python aracı](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/awesome-cern-engineering/08_Advanced_Simulations/collision_kinematics.py).
 
 ---
 
