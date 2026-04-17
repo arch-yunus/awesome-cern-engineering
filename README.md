@@ -15,6 +15,12 @@
 
 ---
 
+## 🇹🇷 Özel Bölüm: Türkiye'nin Hızlandırıcı Vizyonu
+
+Dünya standartlarında parçacık fiziği araştırmaları sadece Cenevre'de değil, aynı zamanda Türkiye'nin yerel tesislerinde ve bilim insanlarının hayallerinde de şekillenmektedir. TARLA ve TENMAK gibi kurumların süperiletken hızlandırıcı yetkinliğini ve gelecek hedeflerini incelediğimiz özel dökümana ulaşmak için **[buraya tıklayınız](TURKIYE_HIZLANDIRICI_VIZYONU.md).**
+
+---
+
 ## 🏛️ Yönetici Özeti (Executive Summary)
 
 CERN (Avrupa Nükleer Araştırma Merkezi), modern bilişim ve mühendislik dünyasının sınırlarını belirleyen bir ekosistemdir. Bu depo, CERN'ü yalnızca bir teorik fizik laboratuvarı olarak değil; **Radyo Frekans (RF) Sistemleri, Kriyojenik mimari, Ultra-Hızlı Veri İşleme (DAQ), Dağıtık Hesaplama (Grid Computing) ve Fail-Safe Kontrol Sistemleri** özelinde bir mühendislik manifestosu olarak ele almaktadır. 
