@@ -2,9 +2,9 @@
 
 <div align="center">
 
-# 🌌 Awesome CERN Mühendisliği
+# 🌌 CERN Deep Dive
 
-[![Web Portalı](https://img.shields.io/badge/Web%20Portal%C4%B1-Aktif-brightgreen?style=for-the-badge&logo=githubpages)](https://arch-yunus.github.io/awesome-cern-engineering/)
+[![Web Portalı](https://img.shields.io/badge/Web%20Portal%C4%B1-Aktif-brightgreen?style=for-the-badge&logo=githubpages)](https://arch-yunus.github.io/cern-deep-dive/)
 [![CERN Açık Veri](https://img.shields.io/badge/CERN-A%C3%A7%C4%B1k%20Veri-blue?style=for-the-badge&logo=cern)](https://opendata.cern.ch/)
 [![Alan: Mühendislik](https://img.shields.io/badge/Alan-M%C3%BChendislik-orange?style=for-the-badge)](https://home.cern/science/engineering)
 [![Durum: Üretim](https://img.shields.io/badge/Durum-%C3%9Cretim-green?style=for-the-badge)](https://home.cern/)
